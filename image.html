@@ -10,8 +10,13 @@
     </style>
 </head>
 <body>
-    <img src="./sumitnew.jpg" width="400px" alt="pexels-photo">
-    <img src="https://images.pexels.com/photos/20309830/pexels-photo-20309830/free-photo-of-common-buckeye-junonia-coenia.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" width="500px" alt="pexels-photo">
+    <!-- <img src="./sumitnew.jpg" width="400px" alt="sumit">
+    <img src="https://images.pexels.com/photos/20309830/pexels-photo-20309830/free-photo-of-common-buckeye-junonia-coenia.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" width="500px" alt="pexels-photo"> -->
+    <picture>
+        <source  media="(min-width:650px)" srcset="./sumitnew.jpg"/>
+        <source  media="(min-width:450px)" srcset="https://images.pexels.com/photos/20309830/pexels-photo-20309830/free-photo-of-common-buckeye-junonia-coenia.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"/>
+        <img src="./sumitnew.jpg" alt="sumit">
+    </picture>
     
 </body>
 </html>

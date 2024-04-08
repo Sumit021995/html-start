@@ -22,10 +22,31 @@
         <label for="volume">volume</label>
         <input type="range" name="color" id="color" min="0" max="10" value="3" step="1">
         <label for="color">color</label>
-        <input type="radio" name="sumit" id="sumit" checked >
+        <div>
+            <input type="radio" name="sumit" id="sumit" checked >
         <label for="sumit">sumit</label>
         <input type="radio" name="amit" id="amit" checked >
         <label for="amit">amit</label>
+        </div>
     </form>
+
+    <fieldset>
+        <legend>Select a maintenance drone:</legend>
+      
+        <div>
+          <input type="radio" id="huey" name="drone" value="huey" checked />
+          <label for="huey">Huey</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey" />
+          <label for="dewey">Dewey</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="louie" name="drone" value="louie" />
+          <label for="louie">Louie</label>
+        </div>
+      </fieldset>
 </body>
 </html>
